@@ -4,7 +4,7 @@
   "description": "Exception safe functions and promises by converting thrown errors to values",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape index.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/eiriklv/unexceptional/issues"
   },
-  "homepage": "https://github.com/eiriklv/unexceptional#readme"
+  "homepage": "https://github.com/eiriklv/unexceptional#readme",
+  "devDependencies": {
+    "tape": "^4.7.0"
+  }
 }

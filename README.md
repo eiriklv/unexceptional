@@ -49,13 +49,13 @@ Safe(r) promises:
 const { safePromise } = require('unexceptional');
 
 function iRejectSometimes(val, shouldReject) {
-  return new Promise(resolve, reject) {
-    if (shouldThrow) {
+  return new Promise(function(resolve, reject) {
+    if (shouldReject) {
       reject(new Error('Something went wrong'));
     } else {
       resolve(val);
     }
-  }
+  });
 }
 
 async function main() {

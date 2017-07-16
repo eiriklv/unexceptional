@@ -1,7 +1,7 @@
 /**
  * Wrap an "unsafe" promise
  */
-module.exports.safePromise = function safePromise(promise) {
+var safePromise = module.exports.safePromise = function safePromise(promise) {
   return promise
   .then(function(result) {
     return [undefined, result];
@@ -21,7 +21,7 @@ module.exports.safePromise = function safePromise(promise) {
  * and not errors that are thrown "later"
  * within the same context (no way to do that..)
  */
-module.exports.safeFunction = function safeFunction(fn) {
+var safeFunction = module.exports.safeFunction = function safeFunction(fn) {
   return function() {
     var error = undefined;
     var result = undefined;
