@@ -1,0 +1,26 @@
+{
+  "name": "unexceptional",
+  "version": "1.0.0",
+  "description": "Exception safe functions and promises by converting thrown errors to values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiriklv/unexceptional.git"
+  },
+  "keywords": [
+    "safe",
+    "exceptions",
+    "promises",
+    "values",
+    "errors"
+  ],
+  "author": "Eirik Vullum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriklv/unexceptional/issues"
+  },
+  "homepage": "https://github.com/eiriklv/unexceptional#readme"
+}
