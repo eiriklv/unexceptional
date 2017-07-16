@@ -1,6 +1,8 @@
 Unexceptional
 =============
 
+[![npm version](https://badge.fury.io/js/unexceptional.svg)](https://badge.fury.io/js/unexceptional)
+
 Exception safe functions and promises by converting thrown errors to values (like Go and Lua). See [this gist](https://gist.github.com/eiriklv/1fb4af8a268b394ddce5b8e4623bc546) for background.
 
 __NOTE:__ This meant initially developed for usage together with `async/await` and `function*/yield`, so all results are converted to promises (see the source in `index.js` for more info).
